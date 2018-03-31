@@ -1,0 +1,610 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+/*START LOGIN*/
+.container-index {
+    
+	background-image:url(../img-admin/bg2.png);
+    width: 100%;
+    height: 834px;
+    position: relative;
+    max-height: 834px;
+    /* background: linear-gradient(100deg,red,yellow); */
+}
+.title-index {
+    text-align: center;
+    padding-top: 60px;
+    font-family: initial;
+    font-size: 61px;
+    color: #fff;
+}
+.content-index {
+    width: 43%;
+    margin: 48px auto 0px auto;
+    height: 400px;
+    
+}
+.content-title {
+    width: 16%;
+    height: 36px;
+    margin: 22px auto 0px auto;
+}
+.user-index input[type="text"] {
+    width: 53%;
+    height: 39px;
+    margin-left: 123px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 13px;
+    border: 0px;
+    padding-left: 30px;
+}
+.pass-index input[type="password"] {
+    width: 53%;
+    height: 39px;
+    margin-left: 123px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 13px;
+    border: 0px;
+    padding-left: 30px;
+}
+.btn-login-index {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.btn-login-index button img {
+    width: 28px;
+    height: 25px;
+    padding-top: 2px;
+}
+.btn-login-index button {
+    width: 19%;
+    border: 0px;
+    height: 37px;
+    background-color: #19b598;
+    color: #fff;
+    margin-left: 41%;
+    position: relative;
+}
+.btn-login-index button span {
+    position: absolute;
+    top: 12px;
+    right: 5px;
+}
+.btn-login-index button img {
+    width: 28px;
+    height: 25px;
+    padding-top: 2px;
+    position: absolute;
+    left: 7px;
+    top: 5px;
+}
+
+/*END Login*/
+/*START table-fix*/
+.QLTK-table-fix table {
+    width: 43%;
+    margin: 21px auto 35px auto;
+    height: 115px;
+    border-collapse: collapse;
+    border-color: #ece3e3;
+}
+td.table-fix-title {
+    font-family: -webkit-body;
+    font-size: 25px;
+    color: #000;
+}
+td.table-txtName input[type="text"] {
+    width: 96%;
+    height: 22px;
+    border: 0px;
+    font-size: 20px;
+    font-family: -webkit-body;
+    padding-left: 7px;
+    background-color: beige;
+}
+td.table-txtFixPass input[type="text"] {
+    width: 96%;
+    height: 22px;
+    border: 0px;
+    font-size: 20px;
+    font-family: -webkit-body;
+    padding-left: 7px;
+}
+td.table-fix-btn input[type="submit"] {
+    width: 25%;
+    height: 31px;
+    border: 0px;
+    background-color: #289e6d;
+    color: #fff;
+    font-size: 19px;
+}
+
+
+/*END table-fix*/
+.container {
+    width: 100%;
+    height: 700px;
+    background-color: #C0BCB9;
+}
+.manager-header {
+    width: 100%;
+    height: 60px;
+    background-color: #222222;
+    box-shadow: -1px 3px 1px 1px #000;
+    position: fixed;
+    margin-bottom: 5px;
+	z-index:10;
+}
+.manager-content {
+    width: 100%;
+    height: 1000px;
+    background-color: #fff;
+    /* position: relative; */
+}
+.manager-content-left {
+    width: 22%;
+    height: 700px;
+    float: left;
+    background-color: #222222;
+    position: fixed;
+    margin-top: 63px;
+}
+.manager-content-right {
+    width: 77.9%;
+    height: 600px;
+    background-color: #fff;
+    float: right;
+    position: relative;
+    margin-top: 64px;
+    z-index: 0;
+}
+
+.manager-header-left {
+    color: #847b7b;
+    line-height: 49px;
+    margin-left: 2%;
+    font-family: sans-serif;
+    font-size: 25px;
+    float: left;
+}
+.manager-header-left:hover {
+    color: #fff;
+}
+
+.manager-header-center-img {
+    position: absolute;
+    top: 10px;
+    right: 34%;
+}
+.manager-header-center-title {
+    position: absolute;
+    top: 20px;
+    right: 22%;
+    font-size: 20px;
+    color: #fff;
+}
+
+.manager-header-right {
+    position: relative;
+    top: 10px;
+    right: -77%;
+	cursor:pointer;
+}
+span.manager-header-right-text {
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    left: 145px;
+}
+.manager-content-left ul li {
+    list-style: none;
+    width: 100%;
+    height: 50px;
+    background-color: #222222;
+    margin-bottom: 1px;
+    position: relative;
+    top: 23px;
+}
+.manager-content-left ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 12px;
+}
+.manager-content-left ul li:hover {
+    background-color: #000;
+	transition:0.4s;
+}
+.manager-content-left ul li img {
+    width: 12%;
+    height: 33px;
+    margin: 6px 5px 0px 8px;
+}
+
+/*quan ly tai khoan*/
+.manager-content-right-container {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.manager-content-right-add h1 {
+    margin-left: 37%;
+    margin-top: 3%;
+}
+.manager-content-right-add hr {
+    width: 89%;
+    margin-left: 7%;
+}
+table.addAccount {
+    width: 73%;
+    height: 168px;
+    margin: 35px auto 0px auto;
+    border-collapse: collapse;
+    border-color: #d8cdcd;
+    font-size: 23px;
+    font-weight: bold;
+    color: #615b5b;
+}
+td.txtUser input[type="text"] {
+    width: 99%;
+    height: 27px;
+    font-size: 25px;
+    border: 0px;
+}
+.table-title {
+    color: #000;
+}
+td.txtUser input::-webkit-input-placeholder {
+  color:#615b5b;
+  font-size:15px;
+  padding-left:8px;
+}
+td.txtPass input[type="text"] {
+    width: 99%;
+    height: 27px;
+    font-size: 25px;
+    border: 0px;
+}
+td.txtPass input::-webkit-input-placeholder {
+  color: #615b5b;
+  font-size:15px;
+  padding-left:8px;
+}
+td.manager-btn input[type="submit"] {
+    width: 17%;
+    height: 35px;
+    border: 0px;
+    background-color: #289e6d;
+    color: #fff;
+    font-size: 20px;
+}
+td.manager-btn input[type="submit"]:hover {
+    background-color: #7de0c0;
+	transition:0.3s;
+}
+
+table.tableListAccount {
+    width: 73%;
+    height: 168px;
+    margin: 35px auto 40px auto;
+    border-collapse: collapse;
+    border-color: #d8cdcd;
+    font-size: 23px;
+    font-weight: bold;
+    color: #615b5b;
+}
+td.QLTKlink a {
+    text-decoration: none;
+    padding: 2px 56px;
+    color: #4476a0;
+    font-family: monospace;
+}
+.tb {
+    width: 56%;
+    height: 33px;
+    background-color: #79fbf53b;
+    margin: 0px auto 44px auto;
+    text-align: center;
+    line-height: 31px;
+    font-size: 22px;
+    color: #22a722;
+    border-radius: 25px;
+    border: 1px solid #1da3d6;
+   font-family: -webkit-body;}
+td.txtTB .tb-add {
+    height: 33px;
+    background-color: #79fbf53b;
+    margin: 0px auto 1px auto;
+    text-align: center;
+    line-height: 31px;
+    font-size: 22px;
+    color: #22a722;
+    border-radius: 25px;
+    border: 1px solid #1da3d6;
+    font-family: -webkit-body;
+    width: 60%;
+}
+.false {
+    width: 60%;
+    height: 33px;
+    background-color: #79fbf53b;
+    margin: 0px auto 0px auto;
+    text-align: center;
+    line-height: 31px;
+    font-size: 22px;
+    color: red;
+    border-radius: 25px;
+    border: 1px solid #1da3d6;
+    font-family: -webkit-body;
+}
+.sucess {
+    height: 33px;
+    background-color: #79fbf53b;
+    margin: 0px auto 1px auto;
+    text-align: center;
+    line-height: 31px;
+    font-size: 22px;
+    color: #22a722;
+    border-radius: 25px;
+    border: 1px solid #1da3d6;
+    font-family: -webkit-body;
+    width: 60%;
+}
+
+/*table san pham*/
+.product-manager-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+td.tbl-product-img img {
+    width: 97%;
+    height: 34px;
+}
+h1.product-manager-title {
+    text-align: center;
+    margin: 29px 0px 14px 0px;
+    font-family: serif;
+}
+.product-manager-container hr {
+    width: 89%;
+    margin-left: 7%;
+}
+table#tbl-product {
+    width: 90%;
+    margin: 27px auto 40px auto;
+    border-collapse: collapse;
+    height: 607px;
+    font-family: sans-serif;
+}
+td.tbl-product-th {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+
+
+a.divTrang {
+    background-color: black;
+    color: #fff;
+    padding: 8px;
+    text-decoration: none;
+	 margin: 0px 1px 0px 1px;
+}
+span.active {
+    padding: 8px 9px 8px 9px;
+    background-color: #01ab9b;
+    margin: 0px 1px 0px 1px;
+}
+a.divTrang:hover {
+    padding-top: 13px;
+    transition: 0.2s;
+    background-color: aqua;
+    color: #000;
+}
+span.active:hover{
+	padding-top: 13px;
+    transition: 0.2s;
+    background-color: aqua;
+    color: #000;
+}
+td.tbl-product-title {
+    height: 39px;
+    font-family: inherit;
+    font-size: 24px;
+    font-weight: bold;
+}
+a.link-product {
+    text-decoration: none;
+    color: blue;
+    font-size: 24px;
+}
+/*ban them san pham*/
+table.tbl-product-add {
+    width: 78%;
+    margin: 3% auto 3% auto;
+    border-collapse: collapse;
+    font-family: initial;
+    height: 264px;
+}
+td.tbl-ProductAdd-input input[type="text"] {
+    width: 97%;
+    height: 27px;
+    font-size: 21px;
+    padding-left: 11px;
+    font-family: initial;
+	border:0px;
+}
+select.selTypeProduct {
+    width: 23%;
+    padding-left: 7%;
+    font-size: 19px;
+    font-family: -webkit-pictograph;
+}
+td.tbl-ProductAdd-title {
+    height: 43px;
+    font-size: 27px;
+    font-weight: bold;
+}
+td.tbl-ProductAdd-btn input[type="submit"] {
+    width: 17%;
+    height: 35px;
+    border: 0px;
+    background-color: #289e6d;
+    color: #fff;
+    font-size: 20px;
+    margin: 4px 0px 4px 0px;
+}
+td.tbl-ProductAdd-btn input[type="submit"]:hover {
+    background-color: #7de0c0;
+    transition: 0.3s;
+}
+/*Ban Sua San Pham*/
+td.tbl-fix-img img {
+    width: 27%;
+    height: 109px;
+}
+
+table#tbl-fix-product {
+    width: 63%;
+    height: auto;
+    margin: 18px auto 44px auto;
+    border-collapse: collapse;
+}
+td.table-fix-txtName input[type="text"] {
+    width: 96%;
+    height: 31px;
+    font-size: 20px;
+    padding-left: 12px;
+    font-family: inherit;
+    color: blue;
+    font-weight: bold;
+	border:0px;
+}
+td.table-fix-txtInfo textarea {
+    width: 99%;
+    height: 82px;
+    border: 0px;
+	color:blue;
+	font-size:19px;
+}
+td.table-fix-txtType select {
+    width: 47%;
+    height: 33px;
+    font-size: 20px;
+    padding-left: 17%;
+    color: blue;
+}
+td.btn-fix-Product input[type="submit"] {
+    width: 17%;
+    height: 35px;
+    border: 0px;
+    background-color: #289e6d;
+    color: #fff;
+    font-size: 20px;
+    margin: 4px auto 4px auto;
+}
+
+/*Quan Ly Loai San Pham*/
+.type-manager-container hr {
+    width: 89%;
+    margin-left: 7%;
+}
+table.tbl-type-Product {
+    width: 69%;
+    margin: 20px auto 41px auto;
+    height: 459px;
+    border-collapse: collapse;
+    font-family: inherit;
+    font-size: 17px;
+}
+
+a.link-type {
+    text-decoration: none;
+    font-size: 25px;
+    color: blue;
+}
+table#tbl-add-type {
+    width: 50%;
+    margin: 18px auto 0px auto;
+    height: auto;
+    display: table;
+    border-collapse: collapse;
+}
+td.txtNameType input[type="text"] {
+    width: 94%;
+    height: 26px;
+    font-size: 23px;
+    padding-left: 13px;
+    border: 0px;
+	font-family:inherit;
+}
+td.txtDesType textarea {
+    width: 99%;
+    height: 81px;
+    border: 0px;
+	font-family:inherit;
+	font-size: 22px;
+}
+table#tbl-fix-LoaiSP {
+    width: 52%;
+    margin: 21px auto 44px auto;
+    height: auto;
+	border-collapse:collapse;
+}
+td.txtMaLoaiSP input[type="text"] {
+    width: 98%;
+    padding-left: 7px;
+    height: 29px;
+    font-size: 22px;
+    background-color: darkgray;
+    border: 0px;
+}
+td.txtTenLoai input[type="text"] {
+    width: 98%;
+    padding-left: 7px;
+    height: 29px;
+    font-size: 22px;
+    /* background-color: darkgray; */
+    border: 0px;
+    font-family: inherit;
+	color:blue;
+}
+td.txtMoTa textarea {
+    width: 100%;
+    height: 61px;
+    border: 0px;
+    color: blue;
+    font-size: 18px;
+}
+
+.manager-content-right-container h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: inherit;
+    width: 65%;
+    margin: 80px auto 0px auto;
+    color: #27babb;
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+

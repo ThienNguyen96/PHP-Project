@@ -1,0 +1,848 @@
+*{
+	padding: 0px;
+	margin:0px;
+}
+.wrapper{
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+}
+
+/*Phan Header*/
+.header{
+	width: 100%;
+	height: 372px;
+	/*background-color: blue;*/
+}
+.header-title {
+    width: 100%;
+    height: 182px;
+    background-color: #ebe8de;
+    background-image: url(../img/lg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+.header-content-left{
+	width: 30%;
+	height: 100px;
+	/*background-color: green;*/
+	float: left;
+}
+.header-content-left form{
+    padding-top: 33px;
+    padding-left: 83px;
+}
+.header-content-left #search {
+    background-image: url(../img/s.png);
+    background-repeat: no-repeat;
+    background-position: 0px;
+    background-size: 22px;
+    text-align: center;
+    border: 0px;
+}
+
+
+
+.header-content-left input[type="text"] {
+    height: 30px;
+    width: 248px;
+}
+.header-content-left input[type="submit"] {
+    height: 30px;
+    border: 0px;
+    width: 53px;
+    background-color: #74d2bc;
+}
+
+
+
+
+
+.header-content-center{
+	width: 40%;
+	height: 100px;
+	/*background-color: red;*/
+	float: left;
+}
+.header-content-center img{
+    width: 327px;
+    height: 120px;
+    padding-left: 105px;
+}
+
+
+.header-content-right{
+	width: 30%;
+	height: 100px;
+	float: right;
+/*	background-color: lightblue;*/
+}
+.header-content-right form{
+    padding-top: 30px;
+}
+.header-content-right form img.login{
+    height: 20px;
+}
+.header-content-right form button {
+    border: 0px;
+    background-color: #74d2bc;
+    margin-left: 35px;
+    padding: 5px;
+    width: 155px;
+}
+.header-content-right .gio-hang {
+    margin: 18% auto 0px auto;
+    font-size: large;
+    position: relative;
+    background-color: #ebe8de;
+}
+.gio-hang a {
+    text-decoration: none;
+    font-family: monospace;
+    background-color: #da1f39;
+    padding: 1% 3% 1% 2%;
+    border-radius: 34px;
+    color: #fff;
+}
+.product-header img {
+    width: 100%;
+}
+
+
+.header-content{
+	background-color: #ebe8de;
+    width: 100%;
+    height: 140px;
+}
+
+/*Navigation*/
+.navigation {
+    height: 47px;
+    width: 100%;
+    background-color: #65cdd8;
+    border-bottom: 3px solid rgba(66, 154, 142, 0.75);
+}
+.navigation nav {
+    margin-left: 36%;
+}
+.navigation nav a {
+    padding: 21px;
+    line-height: 50px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.navigation nav a:hover{
+	color: #fff;
+	transition: 0.4s;
+}
+
+/*Bat Dau Slider*/
+.content{
+	width: 90%;
+	height: auto;
+	background-color: rgba(153, 153, 153, 0.49);
+	margin: 0px auto;
+	position: relative;
+}
+div#slider{
+	overflow:hidden;//text trong slider bi tran se dc giau di
+	}
+div#slider figure{
+	position:relative;
+	width:400%;
+	margin:0px;
+	left:0px;
+	text-align:left;
+	font-size:0;
+	animation:10s slidy infinite;}
+div#slider figure img{
+	width:25%;
+	height: 300px;
+	float:left;}
+@keyframes slidy{
+	20%{
+		left:0%;}
+	25%{
+		left:0%;}
+	45%{
+		left:-100%;}
+	50%{
+		left:-100%;}
+	70%{
+		left:-200%;}
+	75%{
+		left:-200%;}
+	95%{
+		left:-300%;}
+	100%{
+		left:-300%;}
+	}
+
+article#slider_content {
+    display: block;
+    line-height: 25px;
+    opacity: 0.6;
+    width: 350px;
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    z-index: 11;
+}
+article#slider_content h3 {
+    color: #EBE8DE;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background: #ea2127;
+    padding: 10px 15px;
+    border-radius: 15px 0 15px 0;
+    display: inline-block;
+}
+
+article#slider_content p {
+    margin: 0 0 30px 0;
+    color: #4a463b;
+    background-color: #EBE8DE;
+    padding: 10px 15px;
+    border-radius: 13px;
+}
+
+article#slider_content a {
+    text-decoration: none;
+    font-size: smaller;
+    padding: 8px;
+    background-color: red;
+    color: #fff;
+    border-radius: 28px;
+}
+
+/*Bat Dau Product*/
+
+.product{
+	width: 100%;
+	height: 781px;
+	background-color: #fff;
+	margin-top: 134px;
+	position: relative;
+	padding-top: 20px;
+}
+.product-item {
+    width: 22%;
+    height: 341px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    padding-top: 0px;
+    text-align: center;
+    float: left;
+    margin-left: 26px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.product-item a {
+    text-decoration: none;
+    color: black;
+}
+.product-item:hover {
+    border: 1px solid #39d6b9;
+    color: #39d6b9;
+
+}
+.product-item:hover span {
+    opacity: 0.8;
+    color: #000;
+    transition: 0.5s;
+    transform: scale(1);
+}
+.product-item:hover img {
+    transform: scale(1);
+    transition: 0.4s;
+}
+.product-header {
+    width: 100%;
+    height: 10px;
+}
+p.gia {
+    transform: scale(1);
+    color: blue;
+    font-size: 17px;
+}
+.product-item:hover .gia {
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+div.divTrang {
+    clear: both;
+    height: 43px;
+    width: 40%;
+    background-color: #fff;
+    margin: 0px auto;
+    line-height: 43px;
+    text-align: center;
+}
+div.divTrang a {
+    text-decoration: none;
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 0px 3px;
+}
+
+div.divTrang a:hover {
+    background-color: #000;
+    color: #fff;
+    transition: 0.3s;
+}
+.divtrangactive{
+	background:#000;
+	color:#fff;
+}
+.chitiet-detail-product {
+    width: 87%;
+    height: 379px;
+    background-color: #f9fdfd59;
+    margin: 0px auto 0px auto;
+    position: relative;
+}
+.chitiet-detail-img {
+    width: 55%;
+    height: auto;
+    background-color: #fff;
+    float: left;
+}
+.chitiet-detail-img img {
+    width: 95%;
+    height: 339px;
+    border-radius: 52px;
+}
+.chitiet-detail-info {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+h1.title-name {
+    font-family: inherit;
+    color: #2121e2;
+}
+hr.hr2 {
+    margin-bottom: 2%;
+}
+span.chitiet-detail-nameproduct {
+    font-size: 30px;
+    font-family: inherit;
+    margin-left: 6%;
+}
+span.chitiet-detail-infoproduct {
+    font-size: 20px;
+    font-family: inherit;
+    line-height: 65px;
+    margin-left: 6%;
+    color: #826b6b;
+}
+span.chitiet-detail-priceproduct {
+    font-size: 21px;
+    font-family: monospace;
+    color: red;
+    margin-left: 6%;
+}
+span.number-title {
+    margin-left: 6%;
+    font-size: 22px;
+    line-height: 57px;
+    color: #8a7b7b;
+}
+select.slSL {
+    margin-left: 6%;
+    width: 4%;
+    height: 26px;
+    /* text-align: center; */
+}
+.add-to-cart {
+    margin-left: 61%;
+    margin-top: 16px;
+    background-color: #ddefefd6;
+    position: relative;
+    width: 15%;
+    border: 1px solid #000;
+    border-radius: 8px;
+}
+a.link-lk {
+    background-color: #f75968;
+    padding: 3% 2% 5% 2%;
+    border-radius: 18px;
+    font-family: initial;
+    color: #f1efed;
+}
+.content-cart {
+    width: 90%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    margin: 0px auto;
+    position: relative;
+}
+.payBill {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    padding-top: 2%;
+    font-size: 42px;
+    color: red;
+    font-family: inherit;
+}
+.payBill a {
+    text-decoration: none;
+}
+table#tbl-cart {
+    width: 85%;
+    margin: 5% auto 5% auto;
+    border-collapse: collapse;
+    height: 120px;
+    border: 1px solid #efe7e7;
+}
+td.tbl-cart-fu a {
+    text-decoration: none;
+    background-color: #e40662;
+    padding: 2% 21% 2% 21%;
+    /* border-radius: 14px; */
+    color: #fff;
+}
+td.tbl-cart-th {
+    background-color: azure;
+}
+td.tbl-cart-img {
+    width: 13%;
+}
+	td.tbl-cart-img img {
+		width: 100%;
+		height: 68px;
+	}
+	td.tbl-cart-th {
+    font-family: inherit;
+    font-size: 20px;
+    color: blue;
+}
+.add-to-cart img {
+    width: 26%;
+    height: 44px;
+    padding-right: 11px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.add-to-cart a {
+    text-decoration: none;
+    padding-left: 43px;
+    line-height: 49px;
+}
+.detail-extraproduct {
+    width: 100%;
+    height: 400px;
+    background-color: aqua;
+}
+td.cnt a {
+    text-decoration: none;
+    color: white;
+    background-color: #3cc33c;
+    padding: 2%;
+    border-radius: 35px;
+}
+tr {
+    height: 54px;
+}
+td.tbl-cart-price {
+    width: 16%;
+}
+/*Ket Thuc Product*/
+.header-left {
+    width: 35%;
+    height: 134px;
+    background-color:#fff;
+    float: left;
+    margin-top: 10px;
+    margin-left: 155px;
+}
+
+.header-left img {
+    width: 60%;
+    height: 114px;
+    margin-left: 76px;
+}
+.header-right {
+    width: 35%;
+    height: 134px;
+    background-color: #fff;
+    float: right;
+    margin-top: 10px;
+    margin-right: 155px;
+}
+.header-right img{
+    width: 55%;
+    height: 111px;
+    margin-left: 100px;
+}
+.header-right a, .header-left a {
+    text-decoration: none;
+    color: tomato;
+    font-size: large;
+    font-style: normal;
+}
+.header-right button, .header-left button {
+    padding: 8px;
+    width: 79px;
+    border: 0px;
+    border-radius: 12px;
+}
+
+
+.hinh img {
+    width: 71%;
+    height: 187px;
+    padding: 18px;
+    margin-left: 11px;
+    transform: scale(0.8);
+}
+.hinh {
+    /* border: 1px solid #000; */
+    width: 100%;
+    height: 200px;
+    margin-top: 24px;
+}
+.detail {
+    line-height: 31px;
+}
+.detail h3 {
+    padding-top: 13px;
+    font-size: large;
+}
+.detail span{
+    background: #85cece;
+    padding: 8px;
+    padding-right: 48px;
+    /* line-height: 81px; */
+    opacity: 0;
+    font-size: large;
+    font-family: cursive;
+    position: absolute;
+    top: 32%;
+    left: 31%;
+    text-align: center;
+    padding-left: 42px;
+    transform: scale(0);
+}
+
+a.link-dk {
+    background-color: #67d2a5;
+    padding: 8px 29px;
+    float: left;
+    margin: 25px 12px 0px auto;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 18px;
+}
+ a.link-dn {
+    background-color: #67d2a5;
+    padding: 8px 24px;
+    float: left;
+    margin: 7px 12px 0px auto;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 18px;
+}
+a.link-dk:hover{
+	background-color:#8de6ef;
+	transition:0.4s;
+}
+a.link-dn:hover{
+	background-color:#8de6ef;
+	transition:0.4s;
+}
+
+.greeting {
+    margin: 22px 9px -22px 59px;
+    font-size: 19px;
+}
+.greeting span {
+    color: blueviolet;
+    padding-right: 26px;
+}
+.greeting a {
+    text-decoration: none;
+    background: #f33c76;
+    padding: 2%;
+    color: #fff;
+}
+.greeting a:hover{
+	background-color:#2f2025;
+	transition:0.4s;
+}
+
+
+
+
+
+
+/*clear Fix*/
+.clear-fix{
+	clear: both;
+}
+
+/*Back to Top*/
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #3fd7de;
+    padding: 15px;
+    cursor: pointer;
+    color: white;
+    border-radius: 29px;
+    /* content: "click me"; */
+}
+#myBtn:hover{
+	background-color: #555;
+}
+
+/*footer*/
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    margin-top: 2px;
+	clear:both;
+}
+
+.footer-left {
+    float: left;
+    width: 50%;
+    height: 125px;
+    background: #fff;
+    text-align: center;
+    line-height: 30px;
+}
+.footer-right {
+    float: right;
+    text-align: center;
+    width: 50%;
+    height: 125px;
+    background-color: #fff;
+    line-height: 30px;
+}
+
+.footer-bottom {
+    clear: both;
+    width: 100%;
+    height: auto;
+    background-color: #cdcdcd;
+    text-align: center;
+}
+.footer-left p, .footer-right p {
+    color: #cdcdcd;
+}
+.btn a img {
+    height: 30px;
+}
+.btn{
+	padding-top: 10px;
+}
+.btn a {
+    padding: 13px;
+}
+
+.text p {
+    margin-top: 5px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/*Phan ChiTiet San Pham*/
+.chitiet-detail {
+    width: 100%;
+    height: 48%;
+    background-color: #fff;
+}
+.chitiet-product {
+    width: 100%;
+    height: 52%;
+    background-color: #c39696;
+}
+
+/*Bat dau Dang Ky*/
+	.resgister {
+    width: 60%;
+    height: auto;
+    /* border: 1px solid #000; */
+    margin: 0px auto;
+    position: relative;
+}
+table#tbl-register {
+    width: 70%;
+    height: 132px;
+    margin: 43px auto 0px auto;
+    border-collapse: collapse;
+    font-family: inherit;
+    font-size: larger;
+    border: 1px solid #d2c8c8;
+}
+td.txtUserPage input[type="text"] {
+        width: 94%;
+    height: 45px;
+    border: 0px;
+    padding-left: 18px;
+    font-size: large;
+    font-family: inherit;
+}
+td.txtPassPage input[type="password"], td.txtPassPageRe input[type="password"] {
+        width: 94%;
+    height: 45px;
+    border: 0px;
+    padding-left: 18px;
+    font-size: large;
+    font-family: inherit;
+}
+.btnLogin input[type="submit"] {
+    width: 23%;
+    height: 40px;
+    margin: 5px auto 7px auto;
+    border: 0px;
+    background-color: #0aa508ba;
+    color: #fff;
+    font-size: 19px;
+}
+.btnLogin input[type="submit"]:hover {
+    background-color: aquamarine;
+}
+.tb {
+    width: 75%;
+    height: 50px;
+    /* background-color: aqua; */
+    margin: 21px auto 0px auto;
+    text-align: center;
+    line-height: 44px;
+    font-size: 20px;
+}
+.achive {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 7%;
+}
+.achive a {
+    text-decoration: none;
+}
+span.res-suc {
+    background-color: #87f987b8;
+    padding: 20px;
+    border-radius: 23px;
+    color: #25860e;
+}
+span.res-false {
+    background-color: #e4bd66b8;
+    padding: 20px;
+    border-radius: 23px;
+    color: #e80c0c;
+}
+.re-title {
+    height: 37px;
+    line-height: 31px;
+    font-weight: bold;
+    font-size: 22px;
+}
+.res-img img {
+    width: 15%;
+}
+.res-img {
+    width: 81%;
+    height: 68px;
+    /* background-color: aqua; */
+    text-align: center;
+    padding-top: 28px;
+    margin: 0px auto;
+}
+/*ket Thuc Dang Ky*/
+/*Bat Dau Dang Nhap*/
+table#tbl-dangNhap{
+	 width: 70%;
+    height: 132px;
+    margin: 43px auto 0px auto;
+    border-collapse: collapse;
+    font-family: inherit;
+    font-size: larger;
+    border: 1px solid #d2c8c8;
+}
+td.txtTenDN input[type="text"]{
+	 width: 94%;
+    height: 45px;
+    border: 0px;
+    padding-left: 18px;
+    font-size: large;
+    font-family: inherit;
+}
+td.txtPassDN input[type="password"]{
+	 width: 94%;
+    height: 45px;
+    border: 0px;
+    padding-left: 18px;
+    font-size: large;
+    font-family: inherit;
+}
+.btn-DN input[type="submit"] {
+    width: 23%;
+    height: 40px;
+    margin: 5px auto 7px auto;
+    border: 0px;
+    background-color: #0aa508ba;
+    color: #fff;
+    font-size: 19px;
+}
+.btn-DN input[type="submit"]:hover {
+    background-color: #353c34ba;
+}
+a.link {
+    width: 23%;
+    height: 40px;
+    margin: 5px auto 7px auto;
+    border: 0px;
+    background-color: #0aa508ba;
+    color: #fff;
+    font-size: 19px;
+    padding: 10px 21px;
+    text-decoration: none;
+}
+a.link:hover{
+	background-color: #353c34ba;
+}
+/*Ket Thuc Dang Nhap*/
+
+/*Gio Hang*/
+.contact {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    text-align: center;
+}
+.contact-title {
+    text-align: center;
+    font-size: 27px;
+    font-family: initial;
+    color: blue;
+    margin: 32px 0px 51px 0px;
+}
+.contact-img {
+    width: 100%;
+    height: 215px;
+}
+
+
+
+
+
+
+
+
+
+
